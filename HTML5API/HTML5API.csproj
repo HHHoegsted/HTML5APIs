@@ -68,10 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Binaryfile.html" />
+    <Content Include="Cookie.html" />
     <Content Include="FileAPI.html" />
     <Content Include="Geolocation.html" />
+    <Content Include="LocalStorage.html" />
     <Content Include="NaturebyNumbers.mp4" />
     <Content Include="scripts\binaryFileApi.js" />
+    <Content Include="scripts\Cookie.js" />
     <Content Include="scripts\fileAPI.js" />
     <Content Include="scripts\Geolocation.js" />
     <Content Include="styles\dragdrop.css" />
