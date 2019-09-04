@@ -68,12 +68,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Geolocation.html" />
+    <Content Include="NaturebyNumbers.mp4" />
     <Content Include="scripts\Geolocation.js" />
     <Content Include="styles\dragdrop.css" />
     <Content Include="scripts\dragdrop.js" />
     <Content Include="DragDrop.html" />
     <Content Include="index.html" />
     <Content Include="Itucation Logo.png" />
+    <Content Include="Video.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
