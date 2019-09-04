@@ -1,5 +1,6 @@
 ﻿const coordParagraph = document.querySelector('#showCoords');
 const map = document.querySelector('#imgHolder');
+const apiKey = 'AIzaSyCA917OqnENRbSXdTKUjeRKTEYG2LuS8H4';
 
 function getLocation() {
     if (navigator.geolocation) {
@@ -12,7 +13,8 @@ function getLocation() {
         coordParagraph.innerHTML = `Longitude: ${positionData.coords.longitude}<br>Latitude: ${positionData.coords.latitude}
                                         <br>Altitude: ${positionData.coords.altitude}`;
         let latlon = `${positionData.coords.latitude},${positionData.coords.longitude}`; 
-        // var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="+latlon+" & zoom=14 & size=400x300 & sensor=false & key=YOUR_KEY";
+        var img_url = "https://maps.googleapis.com/maps/api/staticmap?center=" + latlon + "&zoom=14&size=400x300&sensor=false&key=" + apiKey;
+        map.innerHTML = "<img src='" + img_url + "'>";
     }
 
     function showError(e) {

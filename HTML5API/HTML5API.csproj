@@ -67,8 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FileAPI.html" />
     <Content Include="Geolocation.html" />
     <Content Include="NaturebyNumbers.mp4" />
+    <Content Include="scripts\fileAPI.js" />
     <Content Include="scripts\Geolocation.js" />
     <Content Include="styles\dragdrop.css" />
     <Content Include="scripts\dragdrop.js" />
