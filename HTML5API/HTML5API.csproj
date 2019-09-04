@@ -77,6 +77,9 @@
     <Content Include="scripts\Cookie.js" />
     <Content Include="scripts\fileAPI.js" />
     <Content Include="scripts\Geolocation.js" />
+    <Content Include="scripts\storage.js" />
+    <Content Include="scripts\storagetest.js" />
+    <Content Include="Storage.html" />
     <Content Include="styles\dragdrop.css" />
     <Content Include="scripts\dragdrop.js" />
     <Content Include="DragDrop.html" />
@@ -84,6 +87,7 @@
     <Content Include="Itucation Logo.png" />
     <Content Include="Video.html" />
     <Content Include="Web.config" />
+    <Content Include="WebStorageTest.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
