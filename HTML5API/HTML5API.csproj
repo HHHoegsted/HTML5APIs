@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Geolocation.html" />
+    <Content Include="scripts\Geolocation.js" />
     <Content Include="styles\dragdrop.css" />
     <Content Include="scripts\dragdrop.js" />
     <Content Include="DragDrop.html" />
