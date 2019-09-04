@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="styles\dragdrop.css" />
+    <Content Include="scripts\dragdrop.js" />
+    <Content Include="DragDrop.html" />
     <Content Include="index.html" />
     <Content Include="Itucation Logo.png" />
     <Content Include="Web.config" />

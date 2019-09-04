@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HTML5 Drag Drop API</title>
+    <link href="styles/dragdrop.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Drag text or image into box</h2>
+    <div id="box" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+    <br />
+
+    <img src="Itucation Logo.png" id="dragImg" draggable="true"
+         ondragstart="drag(event)" width="300" />
+
+    <p id="dragText" draggable="true" ondragstart="drag(event)">
+        Itucation kurser startede tilbage i 2010, hvor Søren og Noveed besluttede at starte et firma,
+        der havde fokus på uddannelse indenfor IT-specialist områderne. Dette skulle gælde både virksomhederne
+        og de personer der stod ledige. I dag har vi 2 forretningsgrene. Den ene er vores kurser, som vi udbyder
+        som 6 ugers kursus til ledige (6 ugers jobrettet uddannelse og 6 ugers erhvervsrettede kurser), og den
+        anden er vores kurser til virksomheder samt vores konsulentydelser.
+    </p>
+    <p id="after"></p>
+    <script src="scripts/dragdrop.js"></script>
+</body>
+</html>
