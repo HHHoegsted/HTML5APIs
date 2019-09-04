@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="Itucation Logo.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
